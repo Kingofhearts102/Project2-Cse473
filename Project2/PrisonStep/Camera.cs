@@ -118,6 +118,7 @@ namespace PrisonStep
         private void ComputeView()
         {
             view = Matrix.CreateLookAt(eye, center, up);
+            
         }
 
         /// <summary>
